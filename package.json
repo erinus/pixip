@@ -1,0 +1,25 @@
+{
+  "name": "pixiq",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . -c-1",
+    "build:develop": "webpack -d --color --mode development",
+    "build:release": "webpack -d --color --mode production",
+    "watch": "webpack --watch",
+    "clean": "rm ./out/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^5.2.0",
+    "@types/cordova": "0.0.34",
+    "@types/hammerjs": "^2.0.36",
+    "@types/pixi.js": "^4.8.1",
+    "@types/platform": "^1.3.1",
+    "uuid": "^3.3.2",
+    "pixi.js": "^4.8.2",
+    "pixi-sound": "^2.0.3"
+  }
+}
